@@ -22,7 +22,15 @@ A lightweight, premium network speed monitor for your macOS menu bar. Track your
 3. Drag `NetSpeedMonitor.app` to your Applications folder.
 4. Open the app. (You may need to right-click and select "Open" for the first time due to macOS security settings).
 
-### Option 2: Run from Source
+### Option 2: Homebrew (Recommended for Power Users)
+You can install via Homebrew by tapping this repository:
+
+```bash
+brew tap YOUR_USERNAME/netspeedmonitor
+brew install netspeedmonitor
+```
+
+### Option 3: Run from Source
 If you prefer to run from source, you'll need Python 3 installed:
 
 ```bash
