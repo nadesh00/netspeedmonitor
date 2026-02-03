@@ -17,8 +17,8 @@ A lightweight, premium network speed monitor for your macOS menu bar. Track your
 ## 🚀 Installation
 
 ### Option 1: Download the App (Recommended)
-1. Go to the [Rereleases](https://github.com/YOUR_USERNAME/netspeedmonitor/releases) page.
-2. Download the latest `NetSpeedMonitor.dmg` or `NetSpeedMonitor.app.zip`.
+1. Go to the [Releases](https://github.com/nadesh00/netspeedmonitor/releases) page.
+2. Download the latest `NetSpeedMonitor.app.zip`.
 3. Drag `NetSpeedMonitor.app` to your Applications folder.
 4. **First Run (Security)**: Because this app is independently developed, macOS may block it. To open it:
    - **Right-click** (or Control-click) `NetSpeedMonitor.app` in your Applications folder and choose **Open**.
@@ -29,10 +29,10 @@ A lightweight, premium network speed monitor for your macOS menu bar. Track your
      ```
 
 ### Option 2: Homebrew (Recommended for Power Users)
-You can install via Homebrew by tapping this repository:
+You can install via Homebrew by tapping this repository directly:
 
 ```bash
-brew tap YOUR_USERNAME/netspeedmonitor
+brew tap nadesh00/netspeedmonitor https://github.com/nadesh00/netspeedmonitor
 brew install netspeedmonitor
 ```
 
@@ -41,7 +41,7 @@ If you prefer to run from source, you'll need Python 3 installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/netspeedmonitor.git
+git clone https://github.com/nadesh00/netspeedmonitor.git
 cd netspeedmonitor
 
 # Install dependencies

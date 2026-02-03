@@ -2,9 +2,9 @@ class Netspeedmonitor < Formula
   include Language::Python::Virtualenv
 
   desc "Network speed monitor for macOS menu bar"
-  homepage "https://github.com/YOUR_USERNAME/netspeedmonitor"
-  url "https://github.com/YOUR_USERNAME/netspeedmonitor/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "REPLACE_THIS_WITH_ACTUAL_SHA256_AFTER_RELEASE"
+  homepage "https://github.com/nadesh00/netspeedmonitor"
+  url "https://github.com/nadesh00/netspeedmonitor/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "67cc7facbb323926907b18528e284b64cd0527f8b6a0652ed4dc637aceee1be3"
   license "MIT"
 
   depends_on "python@3.11"
