@@ -27,3 +27,6 @@ wheels/
 # Packaging
 dist/
 build/
+*.spec
+venv/
+.env

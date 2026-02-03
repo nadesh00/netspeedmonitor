@@ -10,10 +10,10 @@ echo "🧹 Cleaning old build files..."
 rm -rf build dist
 
 # 2. Build the app
-echo "📦 Building .app bundle with py2app..."
-python3 setup.py py2app
+echo "📦 Building .app bundle with PyInstaller..."
+pyinstaller --noconfirm --onefile --windowed --icon "app_icon.icns" --name "NetSpeedMonitor" --hidden-import "rumps" --hidden-import "psutil" net_speed_monitor.py
 
-# 3. Ad-hoc Signing (Helps with some macOS security checks)
+# 3. Ad-hoc Signing
 echo "✍️  Applying ad-hoc signature..."
 codesign --force --deep --sign - dist/NetSpeedMonitor.app
 
