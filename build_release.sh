@@ -13,7 +13,11 @@ rm -rf build dist
 echo "📦 Building .app bundle with py2app..."
 python3 setup.py py2app
 
-# 3. Create a ZIP of the app
+# 3. Ad-hoc Signing (Helps with some macOS security checks)
+echo "✍️  Applying ad-hoc signature..."
+codesign --force --deep --sign - dist/NetSpeedMonitor.app
+
+# 4. Create a ZIP of the app
 echo "🤐 Zipping the app for distribution..."
 cd dist
 zip -r NetSpeedMonitor.app.zip NetSpeedMonitor.app

@@ -20,7 +20,13 @@ A lightweight, premium network speed monitor for your macOS menu bar. Track your
 1. Go to the [Rereleases](https://github.com/YOUR_USERNAME/netspeedmonitor/releases) page.
 2. Download the latest `NetSpeedMonitor.dmg` or `NetSpeedMonitor.app.zip`.
 3. Drag `NetSpeedMonitor.app` to your Applications folder.
-4. Open the app. (You may need to right-click and select "Open" for the first time due to macOS security settings).
+4. **First Run (Security)**: Because this app is independently developed, macOS may block it. To open it:
+   - **Right-click** (or Control-click) `NetSpeedMonitor.app` in your Applications folder and choose **Open**.
+   - In the dialog that appears, click **Open** again.
+   - Alternatively, you can run this command in Terminal to bypass the block:
+     ```bash
+     xargs xattr -cr /Applications/NetSpeedMonitor.app
+     ```
 
 ### Option 2: Homebrew (Recommended for Power Users)
 You can install via Homebrew by tapping this repository:
