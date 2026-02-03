@@ -3,8 +3,8 @@ class Netspeedmonitor < Formula
 
   desc "Network speed monitor for macOS menu bar"
   homepage "https://github.com/nadesh00/netspeedmonitor"
-  url "https://github.com/nadesh00/netspeedmonitor/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "67cc7facbb323926907b18528e284b64cd0527f8b6a0652ed4dc637aceee1be3"
+  url "https://github.com/nadesh00/netspeedmonitor/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "49bc28cbac94ef1edc5af63336d1b41d5231cc698dd3ca16e0f7cd1e37a72944"
   license "MIT"
 
   depends_on "python@3.11"
