@@ -22,8 +22,7 @@ wheels/
 
 # macOS
 .DS_Store
-*.icns
-# (Actually, keep app_icon.icns)
+# *.icns (Keep app icons)
 
 # Packaging
 dist/
